@@ -1,0 +1,14 @@
+.container h2{
+	margin: 20px 0px 0px 80px;
+}
+
+.container form{
+	margin: 20px 0px 0px 80px;
+	display: inline-block;
+    width: 150px;
+}
+
+.typeform-widget{
+	margin: 0 auto;
+	width: 100px;
+}

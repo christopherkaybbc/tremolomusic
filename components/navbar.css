@@ -1,0 +1,43 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	transition: top 0.5s;
+}
+
+nav .menu-item{
+	display: inline;
+	margin: 0 15px;
+	margin-right: 45px;
+	transition: color 0.5s;
+}
+
+.menu-item:hover{
+	color: rgb(110, 113, 221);
+	transition: color 0.5s;
+	font-weight:bold;
+}
+
+nav .menu{
+	padding: 0;
+}
+
+nav i{
+	font-size: 30px;
+}
+
+nav a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.fa-drum{
+	color: rgb(110, 113, 221);
+	max-width:100%; 
+    height:auto; 
+}
