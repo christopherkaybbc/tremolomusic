@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tremolo Music</title>
+	<meta name=“Tremolo Music” content=“Learn music the fun way with Tremolo Music”>
+	<link rel="icon" href="images/favicon.jpg">
+	
+	<meta charset=“UTF-8”>
+	<link rel="stylesheet" href="style.css">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+	
+	<script src="https://kit.fontawesome.com/a5cf35cac4.js" crossorigin="anonymous"></script>
+	
+	<meta property="og:title" content="Tremolo Music | Learn music the fun way">
+	<meta property="og:image" content="images/notes.png">
+	<meta property="og:description" content="Learn music the fun way with Tremolo Music">
+	<meta property="og:site_name" content="Tremolo Music"/>
+</head>
+<body>
+	<nav class="menu" id="navbar">
+		<i class="fas fa-drum fa-3x"></i>
+		<ul>
+			<li class="menu-item"><a href="#choose-lesson">Choose your lesson</a></li>
+			<li class="menu-item"><a href="#application-form">Application form</a></li>
+		</ul>
+	</nav>
+	
+	<div class="banner">
+		<div class="container">
+			<h1>Tremolo Music, learn music the fun way</h1>
+			<p>Learn music with the best musicians of all instruments.<br>Get live music lessons for beginners or advanced, and choose your teacher.</p>
+			<a class="button" href="#application-form">Sign up now</a>
+		</div>
+	</div>
+	<div class="container" id="choose-lesson">
+		<h2>Choose your lesson</h2>
+		<div class="lessons">
+			<div class="lesson">
+				<h3>Beginner lesson</h3>
+				<img alt="Beginner lesson" src="images/begin.jpg"/>
+			</div>
+			<div class="lesson">
+				<h3>Advanced lesson</h3>
+				<img alt="Advanced lesson" src="images/advanced.jpg"/>
+			</div>
+			<div class="lesson">
+				<h3>Master lesson</h3>
+				<img alt="Master lesson" src="images/master.jpg"/>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="application-form">
+		<h2>Application form</h2><br>
+		<div class="typeform-widget" data-url="https://form.typeform.com/to/fa7ZDSWx?typeform-medium=embed-snippet" style="width: 80%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+	</div>
+	<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+		    document.getElementById("navbar").style.top = "0";
+		  } else {
+		    document.getElementById("navbar").style.top = "-80px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
+	</script>
+</body>
+</html>
