@@ -1,0 +1,33 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/lessons.css");
+@import url("components/lesson.css");
+@import url("components/container.css");
+@import url("components/navbar.css");
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: rgb(230,230,230);
+}
+
+html{
+	scroll-behaviour: smooth;
+}
+
+@media (max-width: 960px) { /* For a screen < 960px, this CSS will be read */
+  .lesson {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) { /* For a screen < 720px, this CSS will be read */
+  .lesson {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) { /* For a screen < 540px, this CSS will be read */
+  .lesson {
+    width: 300px;
+  }
+}
